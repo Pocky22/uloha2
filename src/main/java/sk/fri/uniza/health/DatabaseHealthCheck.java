@@ -80,7 +80,6 @@ public class DatabaseHealthCheck extends HealthCheck {
         dataDAO.create(dataDouble);
         dataDAO.create(dataInteger);
         dataDAO.create(dataString);
-
         return Result.healthy();
     }
 }
