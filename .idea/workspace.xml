@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="zaciatok">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/health/DeleteHealthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/DataDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/DataDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/FieldDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/FieldDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/HouseHoldDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/HouseHoldDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/health/DatabaseHealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/health/DatabaseHealthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/AbstractData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/AbstractData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/ContactPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/ContactPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/DataDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/DataDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/DataInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/DataInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/DataString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/DataString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/HouseHold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/HouseHold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/FieldResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/FieldResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/HouseHoldResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/HouseHoldResource.java" afterDir="false" />
-    </list>
+    <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="zaciatok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +54,7 @@
       <updated>1624734605528</updated>
       <workItem from="1624734608681" duration="3458000" />
       <workItem from="1624807721710" duration="174000" />
-      <workItem from="1624822501765" duration="503000" />
+      <workItem from="1624822501765" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok">
       <created>1624734764477</created>
@@ -82,7 +63,28 @@
       <option name="project" value="LOCAL" />
       <updated>1624734764477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="zaciatok">
+      <created>1624823034209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624823034209</updated>
+    </task>
+    <task id="LOCAL-00003" summary="zaciatok">
+      <created>1624823042694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624823042694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zaciatok">
+      <created>1624823263057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624823263057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

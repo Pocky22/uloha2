@@ -11,7 +11,6 @@ import sk.fri.uniza.model.*;
 import java.time.LocalDateTime;
 
 public class DatabaseHealthCheck extends HealthCheck {
-
     private HouseHoldDAO houseHoldDAO;
     private FieldDAO fieldDAO;
     private IotNodeDAO iotNodeDAO;
