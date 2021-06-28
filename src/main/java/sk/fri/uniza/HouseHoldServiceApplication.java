@@ -22,6 +22,7 @@ import sk.fri.uniza.resources.IoTNodeResource;
 
 public class HouseHoldServiceApplication
         extends Application<HouseHoldServiceConfiguration> {
+
     // Vytvorenie Hibernate baliká: tento balík kombinuje objekt určený na
     // nastavenie Hibernat a samotnú knižnicu Hibernate
     private final HibernateBundle<HouseHoldServiceConfiguration> hibernate =
@@ -41,7 +42,6 @@ public class HouseHoldServiceApplication
                     return configuration.getDataSourceFactory();
                 }
             };
-
 
     public static void main(final String[] args) throws Exception {
         new HouseHoldServiceApplication().run(args);
@@ -65,9 +65,9 @@ public class HouseHoldServiceApplication
                 return configuration.swaggerBundleConfiguration;
             }
         });
+
         // Pripojený balík Hibernate (ORM databáza)
         bootstrap.addBundle(hibernate);
-
     }
 
     // V rámci životného cyklu, je táto metóda zavolaná až po metóde initialize.
@@ -76,26 +76,27 @@ public class HouseHoldServiceApplication
     @Override
     public void run(final HouseHoldServiceConfiguration configuration,
                     final Environment environment) {
-        // Vytvorené objekty na prístup k databáze
+// Vytvorené objekty na prístup k databáze
         final HouseHoldDAO houseHoldDAO =
                 new HouseHoldDAO(hibernate.getSessionFactory());
         final DataDAO dataDAO =
                 new DataDAO(hibernate.getSessionFactory());
         final FieldDAO fieldDAO =
                 new FieldDAO(hibernate.getSessionFactory());
-        final IotNodeDAO IotNodeDAO =
+        final IotNodeDAO iotNodeDAO =
                 new IotNodeDAO(hibernate.getSessionFactory());
         // Vytvorené objekty reprezentujúce REST rozhranie
         environment.jersey()
-                .register(new HouseHoldResource(houseHoldDAO, null));
+                .register(new HouseHoldResource(houseHoldDAO, dataDAO));
         environment.jersey()
                 .register(new FieldResource(fieldDAO));
         environment.jersey()
-                .register(new IoTNodeResource(IotNodeDAO));
+                .register(new IoTNodeResource(iotNodeDAO));
         environment.jersey()
                 .register(new DateParameterConverterProvider());
 
-                // Vytvorenie Healthcheck (overenie zdravia aplikácie), ktorý
+
+        // Vytvorenie Healthcheck (overenie zdravia aplikácie), ktorý
         // využijeme na otestovanie databázy
         UnitOfWorkAwareProxyFactory unitOfWorkAwareProxyFactory =
                 new UnitOfWorkAwareProxyFactory(hibernate);
@@ -106,7 +107,7 @@ public class HouseHoldServiceApplication
                                         IotNodeDAO.class, FieldDAO.class,
                                         DataDAO.class},
                                 new Object[]{houseHoldDAO, null,
-                                        null, dataDAO
+                                        fieldDAO, dataDAO
                                 });
         final DeleteHealthCheck deleteHealthCheck =
                 unitOfWorkAwareProxyFactory
@@ -121,7 +122,5 @@ public class HouseHoldServiceApplication
         // Spustenie všetkých health kontrol
         environment.healthChecks().runHealthCheck("databaseHealthcheck");
         environment.healthChecks().runHealthCheck("deleteHealthcheck");
-
     }
-
 }
