@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="zaciatok">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/FieldDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/FieldDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/IotNodeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/IotNodeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/IotNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/IotNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/FieldResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/FieldResource.java" afterDir="false" />
+    <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="pokracovanie">
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/IoTNodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/IoTNodeResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <workItem from="1624734608681" duration="3458000" />
       <workItem from="1624807721710" duration="174000" />
       <workItem from="1624822501765" duration="1653000" />
-      <workItem from="1624900598037" duration="827000" />
+      <workItem from="1624900598037" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok">
       <created>1624734764477</created>
@@ -101,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624823461489</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pokracovanie">
+      <created>1624901473691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624901473691</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zaciatok" />
-    <option name="LAST_COMMIT_MESSAGE" value="zaciatok" />
+    <MESSAGE value="pokracovanie" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokracovanie" />
   </component>
 </project>
