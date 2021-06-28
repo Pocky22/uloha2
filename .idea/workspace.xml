@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="IoTNodeResource, implementacia Rest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/IotNodeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/db/IotNodeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/IotNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/IotNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/IoTNodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/IoTNodeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/HouseHold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/model/HouseHold.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1624734608681" duration="3458000" />
       <workItem from="1624807721710" duration="174000" />
       <workItem from="1624822501765" duration="1653000" />
-      <workItem from="1624900598037" duration="2256000" />
+      <workItem from="1624900598037" duration="3967000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok">
       <created>1624734764477</created>
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624902074161</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="IoTNodeResource, implementacia Rest">
+      <created>1624902879677</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624902879677</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

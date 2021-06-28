@@ -22,7 +22,6 @@ import java.util.Set;
                 query = "from HouseHold"),
 
 })
-
 @Entity
 public class HouseHold {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,7 +30,7 @@ public class HouseHold {
     // Swagger nebude zobrazovať atribút
     private Long id;
     @NotEmpty
-    @ApiModelProperty(example = "Univerzitná") // Príklad pre swagger doku
+    @ApiModelProperty(example = "Univerzitná") // Príklad pre swagger doku.
     private String street;
     @NotEmpty
     @ApiModelProperty(example = "Žilina") // Príklad pre swagger doku.
@@ -45,11 +44,14 @@ public class HouseHold {
     private String zip;
     @Valid
     private ContactPerson contactPerson;
+
     @OneToMany(fetch = FetchType.LAZY,
             mappedBy = "houseHold")
     @JsonIgnore // Ignorovanie danej premenej z pohladu Serializacie do
-    // Objektu JSON.Gneroval by sa obrovský JSON a dochádzalo by aj k zacykleniu
+    // objektu JSON. Generoval by sa obrovský JSON a dochádzalo by aj k
+    // zacykleniu
     private Set<AbstractData> data;
+
     @Transient
     @JsonIgnore // Ignorovanie danej premenej z pohladu Serializacie do
     // Objektu JSON.Gneroval by sa obrovský JSON a dochádzalo by aj k zacykleniu

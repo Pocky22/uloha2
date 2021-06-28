@@ -7,7 +7,7 @@ import sk.fri.uniza.model.IotNode;
 
 import java.util.List;
 
-public class IotNodeDAO extends AbstractDAO<IotNodeDAO> {
+public class IotNodeDAO extends AbstractDAO<IotNode> {
     /**
      * Creates a new DAO with a given session provider.
      *
@@ -23,7 +23,8 @@ public class IotNodeDAO extends AbstractDAO<IotNodeDAO> {
     }
 
     public IotNode findById(Long id) {
-        return get(id); }
+        return get(id);
+    }
 
     public IotNode update(IotNode iotNode) {
         return (IotNode) currentSession().merge(iotNode);
