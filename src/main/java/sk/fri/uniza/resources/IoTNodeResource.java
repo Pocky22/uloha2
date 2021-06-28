@@ -17,8 +17,8 @@ import java.util.List;
 // Určené na konfigurovanie swagger dokumentačného nástroja
 @SwaggerDefinition(
         info = @Info(
-                description = "IoT Node data",
-                version = "V1.0.0",
+                description = "IoT Node Tomasove data",
+                version = "V1.2.3",
                 title = "IoT Node service",
                 contact = @Contact(
                         name = "Tomas Pocklan",

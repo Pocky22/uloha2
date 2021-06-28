@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="Oprava IoTnodeDAO">
+    <list default="true" id="40d5b7f5-632a-495c-ba3c-d8535a825dae" name="Default Changelist" comment="Final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/HouseHoldServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/FieldResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/FieldResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/IoTNodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/fri/uniza/resources/IoTNodeResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1624734608681" duration="3458000" />
       <workItem from="1624807721710" duration="174000" />
       <workItem from="1624822501765" duration="1653000" />
-      <workItem from="1624900598037" duration="5515000" />
+      <workItem from="1624900598037" duration="6460000" />
     </task>
     <task id="LOCAL-00001" summary="zaciatok">
       <created>1624734764477</created>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624904994382</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Final">
+      <created>1624906727255</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624906727255</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +156,8 @@
     <MESSAGE value="pokracovanie" />
     <MESSAGE value="IoTNodeResource, implementacia Rest" />
     <MESSAGE value="Oprava IoTnodeDAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oprava IoTnodeDAO" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HouseHoldService$run.ic" NAME="run Coverage Results" MODIFIED="1624905871378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
