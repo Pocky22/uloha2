@@ -13,7 +13,6 @@ import javax.validation.constraints.Size;
 
 @Entity
 
-
 public class Field {
 
     @Id

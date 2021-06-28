@@ -47,7 +47,10 @@ public class FieldResource {
         return fieldDAO.findById(id);
     }
 
-
+    @GET
+    @UnitOfWork
+    @Path("{id}")
+    @ApiOperation(value = "Vymaze typ Field")
     public Field deleteField(String id) {
         return null;
     }
