@@ -18,7 +18,7 @@ public class IotNode {
     @ApiModelProperty(accessMode = ApiModelProperty.AccessMode.READ_ONLY)
     private Long id;
     @NotEmpty
-    @ApiModelProperty(example = "SiMa byt") // Príklad pre swagger doku.
+    @ApiModelProperty(example = "Daco")
     private String Name;
     @ManyToOne
     @JsonIgnore

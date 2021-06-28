@@ -83,12 +83,15 @@ public class HouseHoldServiceApplication
                 new DataDAO(hibernate.getSessionFactory());
         final FieldDAO fieldDAO =
                 new FieldDAO(hibernate.getSessionFactory());
-
+        final IotNodeDAO IotNodeDAO =
+                new IotNodeDAO(hibernate.getSessionFactory());
         // Vytvorené objekty reprezentujúce REST rozhranie
         environment.jersey()
                 .register(new HouseHoldResource(houseHoldDAO, null));
         environment.jersey()
                 .register(new FieldResource(fieldDAO));
+        environment.jersey()
+                .register(new IoTNodeResource(IotNodeDAO));
         environment.jersey()
                 .register(new DateParameterConverterProvider());
 

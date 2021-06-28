@@ -23,8 +23,7 @@ public class IotNodeDAO extends AbstractDAO<IotNodeDAO> {
     }
 
     public IotNode findById(Long id) {
-        return get(id);
-    }
+        return get(id); }
 
     public IotNode update(IotNode iotNode) {
         return (IotNode) currentSession().merge(iotNode);
